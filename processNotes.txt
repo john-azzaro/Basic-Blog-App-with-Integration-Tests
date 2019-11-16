@@ -46,21 +46,26 @@ Phase 2: Create basic Express app
 =================================
     1. Create express app:
         ----------------------------------------------------
-            const express = require('express');                  -- import express
-            const app = express();                               -- instantiate express app
+            const express = require('express');                      -- import express
+            const app = express();                                   -- instantiate express app
         ---------------------------------------------------- 
 
     2. Create basic server:
         ----------------------------------------------------
-        let server;                                              -- create basic server
-        server = app.listen(3000, function() {               
-            console.log('Your app is listening on port 3000')
-        });
+            let server;                                              -- create basic server
+            server = app.listen(3000, function() {               
+                console.log('Your app is listening on port 3000')
+            });
         ----------------------------------------------------
 
     3. Create a basic route to test connection:
         ---------------------------------------------------
-        app.get('/', function(reqm res) {                       -- create basic GET route
-            res.send('This test works');
-        });
+            app.get('/', function(reqm res) {                        -- create basic GET route
+                res.send('This test works');
+            });
+        ---------------------------------------------------
+    4. Test local connection in browser:
+        * make sure to have your server runing (i.e. npm run devStart)
+        ---------------------------------------------------
+            localhost:3000                                           -- should respond "this test works!"
         ---------------------------------------------------
