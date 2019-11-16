@@ -26,10 +26,13 @@ Process Workflow Summary
 Phase 1: Project Setup
 ======================
     // Project Setup:
-        1. Create folder for project.
-        2. npm init
+        1. Create folder for project.                  -- create a folder for your project
+        2. npm init                                    -- create a package.json file
     // Install express:
-        3. npm install express
-        4. add .gitignore
+        3. npm install express                         -- install express framework
+        4. add .gitignore                              -- create gitignore file and add node_modules
     // Install dependencies
-        npm install mongoose morgan uuid
+        5. npm install mongoose morgan uuid            -- add important dependencies you know you will need early in the application
+    // Install devDependencies
+        6. npm install --save-dev nodemon              -- install devDependencies for development environment
+        7. 
