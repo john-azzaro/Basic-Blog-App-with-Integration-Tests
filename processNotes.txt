@@ -18,7 +18,7 @@ This app is an improved version of the Basic-Blog and Basic-Blog-with-Embedded-M
 Process Workflow Summary
 ========================
     Phase 1: Project Setup
-
+    Phase 2: Create basic Express app
 
 
 
@@ -39,3 +39,21 @@ Phase 1: Project Setup
         7. server.js                                   -- added server file
     // Add custom devStart script to package.json
         8. "devStart": "nodemon server.js"             -- when you run npm run devStart, you will start the server with nodemon functionality
+
+
+
+Phase 2: Create basic Express app
+=================================
+    1. Create express app:
+        ----------------------------------------------------
+            const express = require('express');
+            const app = express();
+        ----------------------------------------------------
+
+    2. Create basic server:
+        ----------------------------------------------------
+        let server;
+        server = app.listen(3000, function() {
+            console.log('Your app is listening on port 3000')
+        });
+        ----------------------------------------------------
