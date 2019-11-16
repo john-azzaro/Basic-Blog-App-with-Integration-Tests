@@ -18,3 +18,16 @@ This app is an improved version of the Basic-Blog and Basic-Blog-with-Embedded-M
 Process Workflow Summary
 ========================
     Phase 1: Project Setup
+
+
+
+
+
+Phase 1: Project Setup
+======================
+    // Project Setup:
+        1. Create folder for project.
+        2. npm init
+    // Install express:
+        3. npm install express
+        4. add .gitignore

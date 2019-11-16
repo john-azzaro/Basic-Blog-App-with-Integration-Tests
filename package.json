@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/john-azzaro/Basic-Blog-App-with-Integration-Tests/issues"
   },
-  "homepage": "https://github.com/john-azzaro/Basic-Blog-App-with-Integration-Tests#readme"
+  "homepage": "https://github.com/john-azzaro/Basic-Blog-App-with-Integration-Tests#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
