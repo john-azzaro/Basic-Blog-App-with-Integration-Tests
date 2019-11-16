@@ -6,9 +6,9 @@ Basic Blog App with Integration Tests Process Notes
 Objective
 =========
 The objective of this study is to make a basic blog application with CRUD operations, implementing mongoose, 
-and embedded models and add integration tests.
+and embedded models with the addition of integration tests. 
 
-This app is an improved iteration of the Basic-Blog and Basic-Blog-with-Embedded-Models which I'll link now:
+This app is an improved version of the Basic-Blog and Basic-Blog-with-Embedded-Models which I'll link now:
 * https://github.com/john-azzaro/Basic-Blog-App
 * https://github.com/john-azzaro/Basic-Blog-App-with-Embedded-Models
 
@@ -17,3 +17,4 @@ This app is an improved iteration of the Basic-Blog and Basic-Blog-with-Embedded
 
 Process Workflow Summary
 ========================
+    Phase 1: Project Setup
