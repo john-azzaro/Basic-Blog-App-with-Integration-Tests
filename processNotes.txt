@@ -36,3 +36,6 @@ Phase 1: Project Setup
     // Install devDependencies:
         6. npm install --save-dev nodemon              -- install devDependencies for development environment
     // Create a server.js file:
+        7. server.js                                   -- added server file
+    // Add custom devStart script to package.json
+        8. "devStart": "nodemon server.js"             -- when you run npm run devStart, you will start the server with nodemon functionality
